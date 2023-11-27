@@ -1,4 +1,5 @@
 ﻿using Balta.ContentContext;
+using Balta.SharedContext;
 
 namespace Blazor.ContentContext;
 
