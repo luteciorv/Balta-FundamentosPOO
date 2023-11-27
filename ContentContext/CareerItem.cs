@@ -2,7 +2,7 @@
 
 namespace Blazor.ContentContext;
 
-public class CarrerItem
+public class CarrerItem : Base
 {
     public CarrerItem(int order, string title, string description, Course course)
     {
