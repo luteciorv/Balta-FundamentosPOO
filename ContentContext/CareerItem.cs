@@ -6,7 +6,7 @@ public class CarrerItem : Base
 {
     public CarrerItem(int order, string title, string description, Course course)
     {
-        if (course is null) throw new Exception("O curso não pode ser nulo");
+        if (course is null) AddNotification(new("Course", "O curso não pode ser nulo"));
 
         Order = order;
         Title = title;
